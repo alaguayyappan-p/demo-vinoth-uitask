@@ -1,0 +1,100 @@
+* {
+   margin: 0;
+}
+
+body {
+   background-color: #f2f2f2;
+}
+.wrapper {
+   background-color: white;
+   height: 40vh;
+   width: 80%;
+   margin: 6% auto;
+   padding: 1%;
+}
+.main-section {
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+}
+.inner-section {
+   height: auto;
+   width: 33%;
+}
+.header {
+   position: relative;
+   padding-top: 11px;
+   height: 30px;
+   background-color: #43a2fa;
+   width: auto;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+.header :after {
+   z-index: 200;
+   position: absolute;
+   top: 98.1%;
+   left: 45%;
+   content: "";
+   width: 0;
+   height: 0;
+   border-top: solid 10px #43a2fa;
+   border-left: solid 10px transparent;
+   border-right: solid 10px transparent;
+}
+.header p {
+   text-align: center;
+   font-weight: bolder;
+   font-size: 18px;
+}
+.body1 div,
+.body2 div,
+.body3 div {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.body1 p,
+.body2 p,
+.body3 p {
+   margin-left: 10px;
+}
+.bottom-nav {
+    background-color: red;
+    width: auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem;
+    font-size: 16px;
+    color: white;
+}
+.bottom-nav > div {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.profile-sec {
+   width: 13%;
+}
+.contact-sec {
+   width: 23%;
+}
+#yrname {
+    color:white;
+}
+#designation {
+    color:white;
+}
+.contact-sec button {
+    background-color: white;
+    color: red;
+    outline: none;
+    border: none;
+    height: 2rem;
+    width: auto;
+}
+.contact-sec p {
+    color:white;
+}
